@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#results {
+    display:none;
+}
+
+
+body{
+    background: url(tip.png);
+}
+
+p, h1, h5, span{
+    font-family: 'typewriter';
+    src: url('veteran_typewriter-webfont.woff2') format('woff2'),
+         url('veteran_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(181, 79, 221);
+}
+
+p{
+    font-size: larger;
+}
+
+label{
+    color: rgb(181, 79, 221);
+}
+
+var{
+    color: salmon;
+}
